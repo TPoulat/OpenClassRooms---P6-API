@@ -10,7 +10,7 @@ dotenv.config();
 const TOKEN = process.env.TOKEN;
 
 // import de notre modèle "User"
-const User = require('../models/User');
+const User = require('../models/user');
 
 // export de la fonction "signup"
 exports.signup = (req, res, next) => {

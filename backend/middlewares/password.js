@@ -1,5 +1,5 @@
 //import du schema de mot de passe
-const passwordSchema = require('../models/Password');
+const passwordSchema = require('../models/password');
 
 // export du module de vérification de mots de passe
 exports.password = (req, res, next) => {
